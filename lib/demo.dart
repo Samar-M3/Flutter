@@ -13,7 +13,6 @@ class democlassstate extends State<democlass> {
     return Container(
       child:Text("welcoooomee to demo class is the this!")
 
-
     );
   }
 }
