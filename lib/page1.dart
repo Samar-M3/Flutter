@@ -7,7 +7,7 @@ class Page1 extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-body: Text("this is page1"),
+ body: Text("this is page1"),
 
     );}
 }

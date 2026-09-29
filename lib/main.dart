@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'register_screen.dart';
+import 'demo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -146,7 +147,14 @@ class LoginScreen extends StatelessWidget {
                     SizedBox(
                       height: 54,
                       child: ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) =>  democlass(),
+                            ),
+                          );
+                        },
                         style: ElevatedButton.styleFrom(
                           backgroundColor: const Color(0xFF5B5FEF),
                           foregroundColor: Colors.white,
