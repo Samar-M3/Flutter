@@ -12,8 +12,6 @@ class testclassstate extends State<testclass> {
   Widget build(BuildContext context) {
     return Container(
         child:Text("welcoooomee to test class is the this!")
-
-
     );
   }
 }
